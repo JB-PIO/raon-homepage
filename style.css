@@ -1,3 +1,5 @@
+@import "tailwindcss";
+
 /* 기본 스타일 & 폰트 */
 :root {
   --primary-color: #fbbf24; /* 메인 색상: 노란색 */
@@ -50,6 +52,7 @@ body {
 .logo-img {
   height: 40px;
   width: auto;
+  border-radius: 8px;
 }
 
 .logo-text {
@@ -91,6 +94,7 @@ body {
 }
 .nav-cta:hover {
   background: #facc15;
+  color: #2d3748;
 }
 
 .hamburger {
@@ -133,6 +137,9 @@ body {
 
 .hero-image img {
   max-width: 300px;
+  border-radius: 32px;
+  border: #ffffff 12px solid;
+  box-shadow: #646a4f 0 4px 8px;
 }
 
 /* CTA 버튼 그룹 */
@@ -171,14 +178,14 @@ body {
 }
 
 .cta-button.secondary {
-  background: transparent;
+  background: var(--primary-color);
   color: var(--dark-color);
-  border-color: var(--dark-color);
+  border-color: var(--primary-color);
 }
 
 .cta-button.secondary:hover {
-  background: var(--dark-color);
-  color: var(--bg-color);
+  background: #facc15;
+  border-color: #facc15;
 }
 
 /* Features 섹션 */
@@ -303,6 +310,13 @@ body {
 }
 .footer a:hover {
   color: var(--primary-color);
+}
+
+.footer a img {
+  max-width: 1rem;
+  border-radius: 100%;
+  border: #fff 2px solid;
+  background-color: #ffffff;
 }
 
 /* 반응형 디자인 (모바일) */

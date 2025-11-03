@@ -2,6 +2,7 @@
 <html lang="ko">
   <head>
     <meta charset="UTF-8" />
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image/png" href="images/raon_icon.png"/>
     <title>라온 - 즐거운 우리 동네 중고거래</title>
@@ -17,7 +18,7 @@
     <nav class="navbar">
       <div class="container">
         <a href="#" class="logo">
-          <!-- <img src="images/raon_icon.png" alt="Raon Logo" class="logo-img" /> -->
+          <img src="images/raon_icon.png" alt="Raon Logo" class="logo-img" classname="rounded-full" />
           <span class="logo-text">Raon</span>
         </a>
         <ul class="nav-links">
@@ -34,11 +35,11 @@
         <div class="hero-content">
           <h1>쓰지 않는 물건의 재발견,<br />즐거운 우리 동네 중고거래</h1>
           <p>
-            라온마켓은 신뢰할 수 있는 동네 이웃들과<br />
+            라온마켓은 동네 이웃들과 안전하며<br />
             쉽고 빠르게 중고 물품을 거래하는 서비스입니다.
           </p>
           <div class="cta-buttons">
-            <a href="#" class="cta-button primary">Google Play에서 다운로드</a>
+            <!-- <a href="#" class="cta-button primary">Google Play에서 다운로드</a> -->
             <a href="apk/app-release.apk" class="cta-button secondary"
               >APK 다운로드</a>
           </div>
@@ -55,20 +56,20 @@
           <h2>안심하고 거래하세요, 라온의 특별한 기능</h2>
           <div class="features-grid">
             <div class="feature-card">
-              <div class="icon">📍</div>
-              <h3>동네 인증 시스템</h3>
-              <p>GPS로 내 동네를 인증한 이웃들과 거래하여 믿을 수 있어요.</p>
+              <div class="icon">🔍</div>
+              <h3>AI기반 허위 매물 검사</h3>
+              <p>AI가 다른 곳에서 퍼온 <br />이미지인지 검사해줘요.</p>
             </div>
             <div class="feature-card">
-              <div class="icon">🤝</div>
-              <h3>안전한 라온페이</h3>
-              <p>거래가 완료될 때까지 라온이 결제 금액을 안전하게 보호해요.</p>
+              <div class="icon">🗣️</div>
+              <h3>사기 시도 탐지 챗봇</h3>
+              <p>AI가 상대방의 채팅이 사기를 <br />시도하는 패턴인지 알려줘요.</p>
             </div>
             <div class="feature-card">
               <div class="icon">😊</div>
-              <h3>매너온도 시스템</h3>
+              <h3>상호 거래 확정 시스템</h3>
               <p>
-                거래 후기와 매너 평가를 통해 신뢰도를 한눈에 확인할 수 있어요.
+                상호 간의 합의하에 안전하게 <br />거래를 마칠 수 있어요.
               </p>
             </div>
           </div>
@@ -77,30 +78,28 @@
 
       <section id="showcase" class="showcase">
         <div class="container">
-          <h2>라온, 이렇게 거래해보세요</h2>
+          <h2>AI가 지켜주는 라온채팅</h2>
           <div class="showcase-item">
             <img
-              src="https://via.placeholder.com/300x533"
+              src="./images/screenshot_img.png"
               alt="App Screenshot 1"
             />
             <div class="text-content">
-              <h3>1분이면 끝! 판매 글 올리기</h3>
+              <h3>AI가 찾아내주는 허위매물</h3>
               <p>
-                사진을 찍고 간단한 설명을 적으면, 우리 동네 이웃들에게 바로
-                노출되어 판매가 시작됩니다.
+                채팅화면에서 상대방의 상품 사진이 허위인지 검사해볼 수 있어요.
               </p>
             </div>
           </div>
           <div class="showcase-item reverse">
             <img
-              src="https://via.placeholder.com/300x533"
+              src="./images/screenshot_chat.png"
               alt="App Screenshot 2"
             />
             <div class="text-content">
-              <h3>실시간 라온채팅</h3>
+              <h3>사기 시도 탐지 챗봇</h3>
               <p>
-                앱 안에서 판매자와 약속을 잡고 자유롭게 대화하세요. 개인정보
-                노출 걱정이 없습니다.
+                사기 금지! 챗봇이 대화 내용을 분석해줍니다.
               </p>
             </div>
           </div>
@@ -109,9 +108,9 @@
 
       <section id="cta" class="cta-section">
         <div class="container">
-          <h2>지금 바로, 당신의 동네에서<br />즐거운 거래를 시작해보세요!</h2>
+          <h2>지금 바로, 라온에서<br />즐거운 거래를 시작해보세요!</h2>
           <div class="cta-buttons">
-            <a href="#" class="cta-button primary">Google Play에서 다운로드</a>
+            <!-- <a href="#" class="cta-button primary">Google Play에서 다운로드</a> -->
             <a href="#" class="cta-button secondary">APK 다운로드</a>
           </div>
         </div>
@@ -120,8 +119,8 @@
 
     <footer class="footer">
       <div class="container">
-        <p>&copy; 2025 RAON Demo. All rights reserved.</p>
-        <p><a href="#">문의 : support@raon.example</p>
+        <p>2025 team PIO</p>
+        <p><a href="https://github.com/orgs/JB-PIO/repositories"><img src="./images/git_icon.png" /> Raon project</p>
       </div>
     </footer>
 
